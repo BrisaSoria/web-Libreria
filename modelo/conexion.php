@@ -5,7 +5,7 @@ function conexion()/*creamos la funcion conexion para que conecte la pagina con 
     $host = "localhost";
     $db   = "FinalPP3"; /*nombre de la BD*/   
     $usr  = "root";
-    $pass = "soriabv24"; 
+    $pass = " "; 
     
     $mysqli = new mysqli($host,$usr,$pass,$db);/*guarda los datos en la variable mysqli*/
 
